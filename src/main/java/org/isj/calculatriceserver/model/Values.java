@@ -1,2 +1,4 @@
-package org.isj.calculatriceserver.model;public class Values {
+package org.isj.calculatriceserver.model;
+
+public class Values {
 }
