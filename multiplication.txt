@@ -1,0 +1,6 @@
+    @Override
+    public double multiplication(double a, double b) throws RemoteException {
+        System.out.println("---- Multiplication ----");
+        System.out.println("1er nombre: " + a + "\n2e Nombre : " + b + "\nrésulat: " + (a * b));
+        return a * b;
+    }
