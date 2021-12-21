@@ -17,7 +17,7 @@ public class CalculatriceserverApplication {
                 "3 - division \n" +
                 "4 - multiplication \n" +
                 "5 - Division \n" +
-                "autre valeur va fermer l'application";
+                "toute autre valeur va fermer l'application";
     }
     public static void main(String[] args) {
         SpringApplication.run(CalculatriceserverApplication.class, args);
