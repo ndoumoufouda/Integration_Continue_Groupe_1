@@ -27,5 +27,5 @@ jobs:
     - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
       with:
         heroku_api_key: ${{25a4f081-115a-4f10-b86d-44279c119623}}
-        heroku_app_name: "TEST Calculatrice" #Must be unique in Heroku
+        heroku_app_name: "TEST_Calculatrice" #Must be unique in Heroku
         heroku_email: "ndoumouandre@gmail.com"
