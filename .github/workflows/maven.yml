@@ -27,6 +27,6 @@ jobs:
     - name: Deploy to Heroku
       uses: akhileshns/heroku-deploy@v3.12.12
       with:
-          heroku_api_key: "9a6a7d4c-6845-4a0b-b1e8-71e7d1787d14"
+          heroku_api_key: ${{55321599-3187-4a3d-b64d-150fecff5bc8}}
           heroku_app_name: "HEROKU_APP_JAVA_CALCULATOR"
           heroku_email: "ndoumouandre@gmail.com"
