@@ -24,8 +24,3 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
-      with:
-        heroku_api_key: ${{secrets.25a4f081-115a-4f10-b86d-44279c119623}}
-        heroku_app_name: ${{ secrets.int_continue_groupe_one }}
-        heroku_email: ${{ secrets.ndoumouandre@gmail.com }}
