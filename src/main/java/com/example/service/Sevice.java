@@ -1,4 +1,6 @@
 package com.example.service;
 
-public class Sevice {
+import com.example.interfaces.OperationCalculatrice;
+
+public class Sevice implements OperationCalculatrice {
 }
