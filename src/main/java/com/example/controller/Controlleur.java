@@ -39,7 +39,7 @@ public class Controlleur {
     }
 
     @PostMapping(value = "modulo",consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-    public float mmodulo(@RequestBody Values values){
+    public float modulo(@RequestBody Values values){
         OperationCalculatrice operation=new Sevice();
         return operation.modulo(values.getX(),values.getY());
     }
