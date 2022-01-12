@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" >
 
-<div id="container" style="align-items: center">
-    <input type="number" id="N1" name="V1" />
+<div id="container" style="align-items: center; display: flex; flex-direction: row">
+    <input type="number" id="N1" name="V1" style="margin: 5px" />
 
-    <select name="operations">
+    <select name="operations" style="margin: 5px">
         <option value="+">+</option>
         <option value="-">-</option>
         <option value="*">*</option>
@@ -12,7 +12,10 @@
         <option value="%">%</option>
     </select>
 
-    <input type="number" id="N2" name="V2" />
+    <input type="number" id="N2" name="V2"  style="margin: 5px"/>
+
+    =
+    <h3 style="margin: 5px">00</h3>
 </div>
 
 </body>
