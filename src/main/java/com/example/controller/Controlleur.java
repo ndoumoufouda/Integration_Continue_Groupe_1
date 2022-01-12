@@ -31,4 +31,16 @@ public class Controlleur {
         OperationCalculatrice operation=new Sevice();
         return operation.multiplication(values.getX(),values.getY());
     }
+
+    @PostMapping(value = "soustraction",consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    public float soustraction(@RequestBody Values values){
+        OperationCalculatrice operation=new Sevice();
+        return operation.soustraction(values.getX(),values.getY());
+    }
+
+    @PostMapping(value = "modulo",consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    public float modulo(@RequestBody Values values){
+        OperationCalculatrice operation=new Sevice();
+        return operation.modulo(values.getX(),values.getY());
+    }
 }

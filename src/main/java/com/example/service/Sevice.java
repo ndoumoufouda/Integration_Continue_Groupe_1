@@ -18,4 +18,14 @@ public class Sevice implements OperationCalculatrice {
         return x/y;
     }
 
+    @Override
+    public float soustraction(float x, float y) {
+        return x-y;
+    }
+
+    @Override
+    public float modulo(float x, float y) {
+        return x%y;
+    }
+
 }
